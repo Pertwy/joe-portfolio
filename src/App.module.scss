@@ -1,0 +1,70 @@
+img {
+  width: 500px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+.App {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.dFlex {
+  position: relative;
+  display: inline-block;
+  top: -50vh;
+  width: 500px;
+  height: 100vh;
+  overflow: visible;
+  margin-right: 10px;
+}
+
+.railOne {
+  animation: animateContainerOne 50s linear forwards infinite;
+}
+.railTwo {
+  animation: animateContainerTwo 50s linear forwards infinite;
+}
+.railThree {
+  animation: animateContainerThree 50s linear forwards infinite;
+}
+
+@keyframes animateContainerOne {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(50vh));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateContainerTwo {
+  0% {
+    transform: translateY(50vh);
+  }
+  50% {
+    transform: translateY(calc(0));
+  }
+  100% {
+    transform: translateY(50vh);
+  }
+}
+
+@keyframes animateContainerThree {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(50vh));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

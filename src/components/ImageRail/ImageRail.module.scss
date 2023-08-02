@@ -1,0 +1,71 @@
+.railImage {
+  width: 680px;
+  margin-bottom: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.railImage:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.App {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.dFlex {
+  position: relative;
+  display: inline-block;
+  top: -50vh;
+  width: 680px;
+  height: 100vh;
+  overflow: visible;
+  margin-right: 30px;
+}
+
+.railOne {
+  animation: animateContainerOne 30s linear forwards infinite;
+}
+.railTwo {
+  animation: animateContainerTwo 30s linear forwards infinite;
+}
+.railThree {
+  animation: animateContainerThree 30s linear forwards infinite;
+}
+
+@keyframes animateContainerOne {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(50vh));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateContainerTwo {
+  0% {
+    transform: translateY(50vh);
+  }
+  50% {
+    transform: translateY(calc(0));
+  }
+  100% {
+    transform: translateY(50vh);
+  }
+}
+
+@keyframes animateContainerThree {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(50vh));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

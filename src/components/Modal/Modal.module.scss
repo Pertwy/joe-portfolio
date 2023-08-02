@@ -1,0 +1,28 @@
+.modal {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: calc(100vh - 40px);
+  width: calc(100vw - 40px);
+  z-index: 10;
+  background-color: white;
+  border: black 5px solid;
+  border-radius: 15px;
+
+  .closeBox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 50px;
+    z-index: 11;
+  }
+
+  .modalImage {
+    height: calc(100vh - 80px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
