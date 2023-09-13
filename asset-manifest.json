@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/joe-portfolio/static/css/main.dabe1eca.css",
+    "main.js": "/joe-portfolio/static/js/main.6b76e109.js",
+    "static/media/total-luck.png": "/joe-portfolio/static/media/total-luck.cbb7b0ee93ae6e2bc6a6.png",
+    "static/media/unapologetic.png": "/joe-portfolio/static/media/unapologetic.c9894aa55f65a7ed4f8b.png",
+    "static/media/unpublished.png": "/joe-portfolio/static/media/unpublished.3c3a5ed4d687ce517b6f.png",
+    "static/media/bananas.jpg": "/joe-portfolio/static/media/bananas.46b1894332349cfda3c8.jpg",
+    "static/media/metamorphisis-two.jpg": "/joe-portfolio/static/media/metamorphisis-two.d2e57abd8966d0a89318.jpg",
+    "static/media/sketches-2.jpg": "/joe-portfolio/static/media/sketches-2.c64213fb004d9b7700a2.jpg",
+    "static/media/sex-with-a-gun.jpg": "/joe-portfolio/static/media/sex-with-a-gun.58277a7ea60dfbb39f77.jpg",
+    "static/media/hollywood.jpg": "/joe-portfolio/static/media/hollywood.ba33b7fc1d72fe3b00a5.jpg",
+    "static/media/sketches-4.jpg": "/joe-portfolio/static/media/sketches-4.b87f42f50fb5a1f071c9.jpg",
+    "static/media/sketches-3.jpg": "/joe-portfolio/static/media/sketches-3.582a0e52beb8cedf22a4.jpg",
+    "static/media/sketches-1.jpg": "/joe-portfolio/static/media/sketches-1.b9c61fe7021e1fe0d44d.jpg",
+    "static/media/hiring.jpg": "/joe-portfolio/static/media/hiring.799c2625032928adb3d3.jpg",
+    "static/media/sketches-5.jpg": "/joe-portfolio/static/media/sketches-5.9cb4eaf148225260d0ab.jpg",
+    "static/media/sketches-6.jpg": "/joe-portfolio/static/media/sketches-6.52ec44175a62022fe8d8.jpg",
+    "static/media/metamorphisis-one.jpg": "/joe-portfolio/static/media/metamorphisis-one.b71bf0830ab55e55aeb9.jpg",
+    "static/media/joeProfile.jpeg": "/joe-portfolio/static/media/joeProfile.448d490d69de0134f258.jpeg",
+    "index.html": "/joe-portfolio/index.html",
+    "main.dabe1eca.css.map": "/joe-portfolio/static/css/main.dabe1eca.css.map",
+    "main.6b76e109.js.map": "/joe-portfolio/static/js/main.6b76e109.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dabe1eca.css",
+    "static/js/main.6b76e109.js"
+  ]
+}
