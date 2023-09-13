@@ -6,11 +6,14 @@ export default function ImageRail({ railNumber, railImages, handleModal }) {
   const [containerHeight, setHeight] = useState(100 + "%");
   const [animationState, setPlay] = useState("paused");
   useEffect(() => {
+    console.log(ref);
     if (ref.current) {
       setHeight(ref.current.scrollHeight + "px");
       setPlay("running");
     }
   }, []);
+
+  //console.log(containerHeight);
 
   return (
     <div

@@ -1,0 +1,19 @@
+.railImage {
+  margin-bottom: 30px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.imageRail {
+  width: 100%;
+}
+
+.railImage:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+// .App {
+//   overflow: hidden;
+//   height: 100vh;
+// }

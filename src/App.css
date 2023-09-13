@@ -1,9 +1,9 @@
-.App {
-  margin: 30px;
+html {
+  background-color: #f1f1ef;
 }
 
-.containerr {
-  height: calc(100vh - 60px);
-  overflow: hidden;
-  display: inline-block;
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1ef;
 }

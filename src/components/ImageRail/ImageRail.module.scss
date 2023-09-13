@@ -15,57 +15,61 @@
 }
 
 .dFlex {
+  vertical-align: top;
   position: relative;
   display: inline-block;
-  top: -50vh;
+  //top: -50vh;
   width: 680px;
-  height: 100vh;
+  //height: 100vh;
   overflow: visible;
   margin-right: 30px;
 }
 
 .railOne {
-  animation: animateContainerOne 30s linear forwards infinite;
+  top: -3975px;
+  animation: animateContainerOne 40s linear forwards infinite;
 }
 .railTwo {
-  animation: animateContainerTwo 30s linear forwards infinite;
+  top: -4977px;
+  animation: animateContainerTwo 50s linear forwards infinite;
 }
 .railThree {
-  animation: animateContainerThree 30s linear forwards infinite;
+  top: -5557px;
+  animation: animateContainerThree 50s linear forwards infinite;
 }
 
 @keyframes animateContainerOne {
   0% {
-    transform: translateY(0);
+    transform: translateY(calc(100vh - 60px));
   }
   50% {
-    transform: translateY(calc(50vh));
+    transform: translateY(calc(3975px));
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(calc(100vh - 60px));
   }
 }
 
 @keyframes animateContainerTwo {
   0% {
-    transform: translateY(50vh);
+    transform: translateY(4977px);
   }
   50% {
-    transform: translateY(calc(0));
+    transform: translateY(calc(100vh - 60px));
   }
   100% {
-    transform: translateY(50vh);
+    transform: translateY(4977px);
   }
 }
 
 @keyframes animateContainerThree {
   0% {
-    transform: translateY(0);
+    transform: translateY(calc(100vh - 60px));
   }
   50% {
-    transform: translateY(calc(50vh));
+    transform: translateY(5557px);
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(calc(100vh - 60px));
   }
 }
