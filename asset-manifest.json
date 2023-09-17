@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joe-portfolio/static/css/main.dabe1eca.css",
-    "main.js": "/joe-portfolio/static/js/main.6b76e109.js",
+    "main.css": "/joe-portfolio/static/css/main.c6ba5e04.css",
+    "main.js": "/joe-portfolio/static/js/main.804d345b.js",
     "static/media/total-luck.png": "/joe-portfolio/static/media/total-luck.cbb7b0ee93ae6e2bc6a6.png",
     "static/media/unapologetic.png": "/joe-portfolio/static/media/unapologetic.c9894aa55f65a7ed4f8b.png",
     "static/media/unpublished.png": "/joe-portfolio/static/media/unpublished.3c3a5ed4d687ce517b6f.png",
@@ -17,13 +17,14 @@
     "static/media/sketches-5.jpg": "/joe-portfolio/static/media/sketches-5.9cb4eaf148225260d0ab.jpg",
     "static/media/sketches-6.jpg": "/joe-portfolio/static/media/sketches-6.52ec44175a62022fe8d8.jpg",
     "static/media/metamorphisis-one.jpg": "/joe-portfolio/static/media/metamorphisis-one.b71bf0830ab55e55aeb9.jpg",
+    "static/media/radiantCondICGRegular.ttf": "/joe-portfolio/static/media/radiantCondICGRegular.64ff23b8e2158c3b95b0.ttf",
     "static/media/joeProfile.jpeg": "/joe-portfolio/static/media/joeProfile.448d490d69de0134f258.jpeg",
     "index.html": "/joe-portfolio/index.html",
-    "main.dabe1eca.css.map": "/joe-portfolio/static/css/main.dabe1eca.css.map",
-    "main.6b76e109.js.map": "/joe-portfolio/static/js/main.6b76e109.js.map"
+    "main.c6ba5e04.css.map": "/joe-portfolio/static/css/main.c6ba5e04.css.map",
+    "main.804d345b.js.map": "/joe-portfolio/static/js/main.804d345b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dabe1eca.css",
-    "static/js/main.6b76e109.js"
+    "static/css/main.c6ba5e04.css",
+    "static/js/main.804d345b.js"
   ]
 }
